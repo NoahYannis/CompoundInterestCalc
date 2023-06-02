@@ -19,7 +19,6 @@ namespace CompoundInterestCalc
         public static CalculatorModel GetUserInput()
         {
             CalculatorModel calculatorModel = new CalculatorModel();
-            Console.WriteLine("Compound Interest Calculator --------------------------------------" + "\n");
 
             Console.Write("Enter the starting sum: ");
             calculatorModel.StartingSum = Convert.ToInt32(Console.ReadLine());
